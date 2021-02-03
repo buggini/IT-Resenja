@@ -52,12 +52,21 @@ body{
     color: #DC0101;
     display: block;
     padding: 10px 0px;
-
 }
 #main-menu a:hover,
 #main-menu a.active{
     color: white;
     background-color: #DC0101;
     transition: 400ms ;
+}
+.page .column h1{
+    text-align: center;
 
+}
+#text-holder{
+    text-align:center;
+    padding:50px;  
+}
+#pocetna{
+    
 }
