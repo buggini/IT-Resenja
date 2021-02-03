@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+
+}
+.page{
+
+}
+.footer{
+
+}
+.column{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+}
+.page .column{
+    height: 100vh;
+}
+#logo-i-social{
+    display: flex;
+
+}
+#logo-holder{
+    flex-grow: 1;
+}
+#logo-holder img{
+    height: 50px;
+    width: 120px;
+}
+#social-holder a img{
+    height: 28px;
+    width: 28px;
+}
+#social-holder a{
+    text-decoration: none;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+    padding: 10px 20px;
+}
+#main-menu{
+    display: flex;
+}
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #DC0101;
+    display: block;
+    padding: 10px 0px;
+
+}
+#main-menu a:hover,
+#main-menu a.active{
+    color: white;
+    background-color: #DC0101;
+    transition: 400ms ;
+
+}
