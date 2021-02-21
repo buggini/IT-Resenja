@@ -132,3 +132,40 @@ body{
 .tehnologija p{
     font-weight: bold;
 }
+#usluge{
+    color: #ffffff;
+}
+#usluge{
+    padding-top: 40px;
+}
+.service-row{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.service-row > div{
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #fff;
+}
+.service-row > div > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.service-row > div > p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ffffffA2;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+    border-top: 1px solid #ffffff;
+}
