@@ -204,3 +204,33 @@ body{
 #proizvod-g{
     grid-area: g;
 }
+.proizvodi{
+    display: grid;
+    grid-template: "region";
+    align-content: stretch;
+    justify-content: stretch;
+}
+.proizvodi img{
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+    border: 1px solid #DC0101;
+}
+.proizvodi .text-holder{
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #DC0101DD;
+    color: white;
+    opacity: 0.0;
+    transition: 500ms;
+}
+.proizvodi .text-holder:hover{
+    opacity: 1;
+}
+
