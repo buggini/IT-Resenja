@@ -11,8 +11,13 @@ body{
 .footer{
 
 }
+.column-header{
+    width: 1000px;
+    margin: 0px auto;
+}
+
 .column{
-    
+    padding-top: calc(50vh -  250px);
     width: 1000px;
     margin: 0px auto;
 }
@@ -62,7 +67,7 @@ body{
     font-size: 48pt;
     margin-top: 0px;
     text-align: center;
-    padding-top: calc(50vh -  250px);
+    /* padding-top: calc(50vh -  250px); */
 }
 #dark-box{
     text-align:center;
@@ -169,7 +174,6 @@ body{
     border-top: 1px solid #ffffff;
 }
 #proizvodi h2{
-    padding-top: 50px;
     text-align: center;
 }
 .matrica{
@@ -233,4 +237,46 @@ body{
 .proizvodi .text-holder:hover{
     opacity: 1;
 }
-
+#karijera h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #ffffff;/*treba promenititi kad 
+                        stavis sliku*/
+}
+.career-columns{
+    display: flex;
+}
+.job-list{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.job-descripcions{
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.job-list label{
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffffC0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.job-descripcions input{
+    display: none;
+}
+.job-descripcions .job-description{
+    display: none;
+}
+.job-descripcions input:checked+.job-description{
+    display: block;
+}
+.job-description{
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffffC0;
+    padding: 10px;
+    font-size: 24px;
+}
