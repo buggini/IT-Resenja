@@ -1,21 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0px;
     margin: 0px;
+    font-family: Calibri, sans-serif;
 }
 .header{
     border-bottom: 4px solid  #DC0101;
-}
-.page{
-
-}
-.footer{
-
+    background-color: #fefefe;
 }
 .column-header{
     width: 1000px;
     margin: 0px auto;
 }
-
 .column{
     padding-top: calc(50vh -  250px);
     width: 1000px;
@@ -92,9 +90,6 @@ body{
     background: url(../img/bacgroind-it-resenja.jpg);
     background-size: color;
     background-attachment:fixed;
-}
-.align-centar{
-    text-align: center;
 }
 .krugovi{
     display: flex;
@@ -280,3 +275,67 @@ body{
     padding: 10px;
     font-size: 24px;
 }
+#kontakt h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.kontakt-region{
+    display: grid;
+    grid-template:  "adrese mapa"
+                    "mejlovi mapa";
+    grid-template-columns: 300px 1fr;
+}
+.kontakt-adresa{
+    grid-area: adrese;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.kontakt-mejlovi{
+    grid-area: mejlovi;
+    font-size: 14px;
+
+}
+.kontakt-mejlovi a{
+    text-decoration: none;
+    color: #DC0101;
+}
+.kontakt-mejlovi a:hover{
+    text-decoration: underline;
+    color: #DC0101;
+}
+.kontakt-mapa{
+    grid-area: mapa;
+}
+.footer{
+    border-top: 3px solid #DC0101;
+    background-color: #fefefe;
+    font-size: 13px;
+}
+.footer > .column{
+    display: flex;
+    padding: 0;
+}
+.column .footer-column{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.align-left{
+    text-align: left;
+}
+.align-centar{
+    text-align: center;
+}
+.align-right{
+    text-align: right;
+}
+.column .footer-column>a{
+    text-decoration: none;
+    color: #DC0101;
+}
+.column .footer-column>a:hover{
+    text-decoration: underline;
+    color: #DC0101;
+}
+
